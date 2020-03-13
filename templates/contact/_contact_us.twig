@@ -1,0 +1,20 @@
+<div class="contact-form">
+    <div class="container">
+        <h2 class="contact-form-title">Get more info</h2>
+        <p class="sub-contactform">Have a chat to our experienced customer service team</p>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="title-form">
+                    <img src="/uploads/images/_selector.svg" alt="phone">
+                    <span>Contact Us</span>
+                </div>
+                {# remove style tag #} {# add col to _form-content #} {% include "contact/_formembed" %}
+            </div>
+            <div class="col-sm-6" id="contact-background">
+                <img src="uploads/images/image.png" alt="/uploads/images/image.png"> {# {% set imgs = entry.imageBackground %} #} {# {% for img in imgs %} #} {# <img src="{{img.homepageContactForm}}" alt="{{img.homepageContactForm}}"> #} {# {% endfor
+                %} #}
+            </div>
+        </div>
+    </div>
+</div>
+<script src="{{ siteUrl }}assets/js/form.js"></script>

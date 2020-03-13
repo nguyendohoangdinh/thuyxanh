@@ -1,0 +1,23 @@
+{#
+<div id="contact-form-section" {% set imgs=e ntry. imageBackgroundSection %}{% for img in imgs %} style="background: transparent url({{img.sectionContactForm}}); background-repeat: no-repeat; background-size: cover;" {% endfor %}> #}
+    <div id="contact-form-section" class="contact-form" style="background: transparent url(/uploads/images/banner-lpe.jpg); background-repeat: no-repeat; background-size: cover;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5" id="contact-background">
+                    <h4 class="section-title">MOVING HOME</h4>
+                    <h2 class="section-title-header h1">Book your move online in under 3 minutes.</h2>
+                    <p class="desc-section-moving">Moving can be stressful but moving your electricity connection doesn’t have to be. We make it easier to set up your electricity supply for your new home. Simply fill in your details and we will get your electricity connected, ready
+                        for you when you move in.</p>
+                </div>
+                <div class="col-sm-7">
+                    <div id="contact-form-right">
+                        <div class="get-started">
+                            <img src="/assets/images/icons/home-icon.svg" alt="home">
+                            <span>Get started on moving</span></div>
+                        {% include "contact/_formembed_moving" %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="{{ siteUrl }}assets/js/form.js"></script>
