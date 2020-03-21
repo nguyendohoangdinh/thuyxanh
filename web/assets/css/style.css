@@ -603,7 +603,6 @@ img {
   display: -ms-flexbox;
   display: flex; }
   .nav-footer-top .nav-footer-top-menu {
-    width: 100px;
     margin-right: 10px; }
     .nav-footer-top .nav-footer-top-menu .footer-menu-heading {
       font-style: italic;
